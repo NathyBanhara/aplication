@@ -41,7 +41,7 @@ public class Member implements Serializable {
 
     @Id
     @GeneratedValue
-    private Long id_member;
+    private Long id;
 
     @NotNull
     @Size(min = 1, max = 25)
